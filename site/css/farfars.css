@@ -1,0 +1,15 @@
+body {
+    display: grid;
+    grid-template-columns: ;
+    grid-template-rows: ;
+}
+
+@media only screen and (max-device-width: 600px){
+    
+    body {
+        display: grid;
+        grid-template-columns: ;
+        grid-template-rows: ;
+    }
+
+}
