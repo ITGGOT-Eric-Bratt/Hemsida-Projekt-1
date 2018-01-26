@@ -25,12 +25,24 @@ body {
         grid-column: 1/2;
         grid-row: 1/2;
         margin: 32%;
+        transition: 0.5s;
     }
 
     .search{
         grid-column: 10/11;
         grid-row: 1/2;
         margin: 32%;
+        transition: 0.5s;
+    }
+
+    .menu:hover{
+        transition: 0.5s;
+        font-size: 3em;
+    }
+
+    .search:hover{
+        transition: 0.5s;
+        font-size: 3em;
     }
     
     .logo{
