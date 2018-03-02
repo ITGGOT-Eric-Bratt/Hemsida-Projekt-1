@@ -159,9 +159,16 @@
         grid-row: 1/2;
         grid-column: 3/9;
         margin: 1%;
-        margin-top: 10%;
     }
 
+    a.thailandkina {
+        grid-row: 1/2;
+        grid-column: 5/8;
+        text-align: center;
+        text-decoration: none;
+        margin-left: 15%;
+
+    }
 
 
     .adspace{
@@ -184,6 +191,8 @@
         grid-row: 8/9;
         grid-column: 1/11;
     }
+    
+
 
 
 
