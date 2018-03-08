@@ -14,12 +14,33 @@
             grid-row: 1/2;
             grid-column: 1/11;
         }
-        .menu{
-            grid-column: 1/2;
+        main i.material-icons{
             grid-row: 1/2;
+            grid-column: 1/2;
+            font-size: 3em;
             margin: 32%;
-            transition: 0.5s;
         }
+            
+        .menu i.material-icons{    
+            font-size: 3em;
+    
+        }
+            
+        .menu{
+            width: 30vw;
+            height: 30vh;
+            position: absolute;
+            background:#E88D00;
+            display: none;
+        }
+            
+        .show{
+            display: block;
+        }
+        .fade{
+             background-color: rgb(100,100,100)
+        }
+
     
         .search{
             grid-column: 10/11;
@@ -28,18 +49,7 @@
             transition: 0.5s;
         }
     
-        .menu:hover{
-            margin: 0;
-            transition: 0.5s;
-            font-size: 50px;
-        }
-    
-        .search:hover{
-            margin: 0;
-            transition: 0.5s;
-            font-size: 50px;
-        }
-    
+
         .logo{
             font-family: Calibri;
             font-size: 150%;
@@ -107,11 +117,31 @@
             grid-row: 1/2;
             grid-column: 1/11;
         }
-        .menu{
-            grid-column: 1/2;
+        main i.material-icons{
             grid-row: 1/2;
+            grid-column: 1/2;
+            font-size: 3em;
             margin: 32%;
-            transition: 0.5s;
+        }
+            
+        .menu i.material-icons{    
+            font-size: 3em;
+    
+        }
+            
+        .menu{
+            width: 30vw;
+            height: 30vh;
+            position: absolute;
+            background:#E88D00;
+            display: none;
+        }
+            
+        .show{
+            display: block;
+        }
+        .fade{
+             background-color: rgb(100,100,100)
         }
     
         .search{
@@ -121,17 +151,7 @@
             transition: 0.5s;
         }
     
-        .menu:hover{
-            margin: 0;
-            transition: 0.5s;
-            font-size: 50px;
-        }
-    
-        .search:hover{
-            margin: 0;
-            transition: 0.5s;
-            font-size: 50px;
-        }
+
         
         .logo{
             font-family: serif;
@@ -181,6 +201,7 @@
             grid-column: 4/8;
             grid-row: 6/7;
             border-radius: 6000000000000000px;
+            background-color: #FF2200;
         }
     
         

@@ -11,16 +11,30 @@
 </head>
 <body>
      <header>
-        <i class="material-icons menu">menu</i>
+        <div class="menu">
+            <i class="material-icons" onclick="toggleMenu()">close</i>
+            <ul>
+                <li>Om oss</li>
+                <li>Priser</li>
+                <li>Utrustning</li>
+                <li>Kartor</li>
+            </ul>
+
+        </div>
+
+        <main>
+            <i class="material-icons" onclick="toggleMenu()">menu</i>
+        </main>
+    <script src="js/menu.js"></script>
         <i class="material-icons search">search</i>
         <h1 class="logo">Farfars</h1>
      </header>
      <div class="container">
         <div class="kina">
             <img src="../original_files/Thailand_Kina_bild.jpg" alt="Thailand-Kina resa">
+            <a class="thailandkina" href="../site/Thailand_kina.html">Thailand-Kina 7999:-</a>
          </div>
          <div class="kina2">
-
              <a class="thailandkina" href="../site/Thailand_kina.html">Thailand-Kina 7999:-<img src="../original_files/Thailand_Kina_bild2.jpg" alt="Thailand-Kina resa"></a>
          </div>
          <div class="japan">

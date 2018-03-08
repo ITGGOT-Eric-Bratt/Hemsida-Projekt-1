@@ -11,7 +11,21 @@
 </head>
 <body>
      <header>
-        <i class="material-icons menu">menu</i>
+        <div class="menu">
+            <i class="material-icons" onclick="toggleMenu()">close</i>
+            <ul>
+                <li>Om oss</li>
+                <li>Priser</li>
+                <li>Utrustning</li>
+                <li>Kartor</li>
+            </ul>
+
+        </div>
+
+        <main>
+            <i class="material-icons" onclick="toggleMenu()">menu</i>
+        </main>
+    <script src="js/menu.js"></script>
         <i class="material-icons search">search</i>
         <h1 class="logo">Farfars</h1>
      </header>
