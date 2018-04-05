@@ -122,6 +122,7 @@
 @media only screen and (max-device-width: 900px){
     
     body {
+        height: 99vh;
         display: grid;
         grid-template-columns: repeat(10, 1fr);
         grid-template-rows: repeat(8, 1fr);
